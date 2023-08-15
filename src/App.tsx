@@ -28,7 +28,7 @@ function App() {
           <br></br>
           {image ? <img onClick={handleImageClick} src={URL.createObjectURL(image)} className='imagen'/> : <img onClick={handleImageClick} src={imagen} className='imagen'/>}
           <input type="file" className='input' onChange={handleImageChange} ref={inputRef}/>
-          <br></br>
+          <br></br><br />
           <button  type="button" className="btn btn-primary" onClick={handleImageClick}>Subir Imagen</button>
           </center>
         </div>
